@@ -1,0 +1,14 @@
+.rotate-img {
+  animation: rotateAnimation 16s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes rotateAnimation {
+    to {
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
